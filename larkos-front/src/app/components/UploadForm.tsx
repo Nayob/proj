@@ -95,7 +95,7 @@ const UploadForm: React.FC = () => {
 					<Form.Label className='input-label'>Phone</Form.Label>
 					<IMaskInput className='form-control'
 						mask={'+{7}(000)000-00-00'}
-						unmask={true}
+						unmask={false}
 						ref={ref}
 						inputRef={inputRef}
 						placeholder='Enter phone number here'
