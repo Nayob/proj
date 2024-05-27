@@ -1,0 +1,38 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-color: #D4D4D4 !important;
+  color: aqua;
+}
+
+
+.red {
+  background-color: #264F78;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-form {
+  width: 400px;
+  padding: 15px;
+}
+
+.input-label {
+  color:whitesmoke
+}
+
+.errors {
+  color: coral !important;
+}
